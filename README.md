@@ -9,7 +9,16 @@ When you ask a question, the model searches through these document sections usin
 ![Web Demo](img.png)
 
 ## Usage 
-1. ```git clone https://github.com/hieuminh65/PDF_Reader.git```
-2. ```pip3 install -r requirements.txt```
+1. Open your command line and run 
+```bash
+git clone https://github.com/hieuminh65/PDF_Reader.git
+```
+2. Run
+```bash
+pip3 install -r requirements.txt
+```
 3. Paste your API keys in the .env.example file and rename the file to .env
-4. Run ```streamlit run streamlit__app.py```
+4. Run 
+```bash 
+streamlit run streamlit__app.py
+```
