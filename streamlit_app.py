@@ -9,6 +9,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 with st.sidebar:
+    st.set_page_config(page_title="PDF Reader", page_icon="📚", layout="wide")
     st.markdown('''
     ## How this works
     When you upload a document, it gets split into smaller sections and stored in a special kind of database called a vector index. This type of database allows for semantic search and retrieval, which means it can find related information even if the individual words aren't exact matches. 
